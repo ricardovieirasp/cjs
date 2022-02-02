@@ -1,0 +1,25 @@
+{
+  "name": "cjs",
+  "version": "1.0.0",
+  "description": "curso java script alura",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardovieirasp/cjs.git"
+  },
+  "keywords": [
+    "curso",
+    "alura",
+    "javascript"
+  ],
+  "author": "Ricardo Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardovieirasp/cjs/issues"
+  },
+  "homepage": "https://github.com/ricardovieirasp/cjs#readme",
+  "type": "module"
+}
