@@ -12,15 +12,12 @@ cliente2.cpf = "555666444-55";
 
 const contaCorrenteRicardo = new ContaCorrente();
 contaCorrenteRicardo.agencia = 2553;
+contaCorrenteRicardo.cliente = cliente2;
 
-console.log(cliente1);
-console.log(cliente2);
-
-console.log(contaCorrenteRicardo);
 contaCorrenteRicardo.sacar(100);
-console.log(contaCorrenteRicardo);
 contaCorrenteRicardo.depositar(1000);
-console.log(contaCorrenteRicardo);
 contaCorrenteRicardo.sacar(100);
-console.log(contaCorrenteRicardo);
 
+
+console.log(contaCorrenteRicardo);
+console.log(contaCorrenteRicardo.cliente);
